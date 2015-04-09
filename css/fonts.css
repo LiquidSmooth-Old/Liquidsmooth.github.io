@@ -1,0 +1,20 @@
+@import url("font-awesome.min.css");
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700");
+@font-face { 
+  font-family: Yanone Kaffeesatz; 
+    src: url('../fonts/YanoneKaffeesatz-Regular.eot'); 
+    src: local("Yanone Kaffeesatz"), url('../fonts/YanoneKaffeesatz-Regular.ttf'); 
+} 
+
+@font-face {
+    font-family: 'Kirvy-Regular';
+    src: url('../fonts/litera-regular.eot');
+    src: url('../fonts/litera-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/litera-regular.woff2') format('woff2'),
+         url('../fonts/litera-regular.woff') format('woff'),
+         url('../fonts/litera-regular.ttf') format('truetype'),
+         url('../fonts/litera-regular.svg#harlow_solid_italicitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}

@@ -13,16 +13,132 @@
 		}
 	}
 	&.active {
-		margin-top: $line-height !important;
-		margin-bottom: $line-height !important;
+		margin-top: $line-height;
+		margin-bottom: $line-height;
 	}
-	// no boxshadow
-		.no-boxshadow & {
-			border: 1px solid $black-bg;
-			+ .tile {
-				margin-top: -1px;
+}
+
+.tile-action {
+	float: right;
+	@include clearfix();
+	@include user-select(none);
+	.no-touch &,
+	.touch .tile-collapse & {
+		display: none;
+	}
+	.no-touch .tile:hover &,
+	.tile-collapse.active & {
+		display: block;
+	}
+	.nav {
+		margin-top: 0;
+		margin-bottom: 0;
+		> li {
+			> a {
+				color: $black-sec;
+				z-index: 1;
+				&:focus,
+				&:hover {
+					color: $link-color;
+				}
+			}
+			&.active > a,
+			&.open > a {
+				color: $link-color;
 			}
 		}
+	}
+}
+
+.tile-collapse {
+	@include transition(margin 0.15s linear 0s);
+	&.active, {
+		margin-right: ($grid-gutter * -1);
+		margin-left: ($grid-gutter * -1);
+		.modal & {
+			margin-right: ($grid-gutter * -1);
+			margin-left: ($grid-gutter * -1);
+		}
+		.tile-active-hide {
+			display: none;
+		}
+	}
+	.collapsing {
+		@include transition(height 0.15s linear 0s);
+	}
+	// 1056 - 1439
+		@media only screen and (min-width: ($grid-gutter * 4 + $screen-md)) and (max-width: ($screen-lg - 1)) {
+			&.active {
+				margin-right: ($grid-gutter * -4);
+				margin-left: ($grid-gutter * -4);
+			}
+		}
+	// 1504
+		@media only screen and (min-width: ($grid-gutter * 4 + $screen-lg)) {
+			&.active {
+				margin-right: ($grid-gutter * -4);
+				margin-left: ($grid-gutter * -4);
+			}
+		}
+}
+
+.tile-footer {
+	background-color: $white-bg;
+	position: relative;
+	@include clearfix();
+	&:before {
+		border-top: 1px solid $black-bg;
+		content: '';
+		display: block;
+		position: absolute;
+			top: 0;
+			left: 0;
+		width: 100%;
+	}
+	&:first-child {
+		border-top: 0;
+	}
+	.nav {
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
+
+.tile-inner {
+	overflow: hidden;
+	padding: ($line-height / 2) $grid-gutter;
+	position: relative;
+}
+
+.tile-side {
+	padding-top: ($line-height / 2);
+	padding-bottom: ($line-height / 2);
+	&.pull-left {
+		padding-left: $grid-gutter;
+	}
+	&.pull-right {
+		padding-right: $grid-gutter;
+	}
+}
+
+.tile-sub {
+	overflow: hidden;
+	padding-right: $grid-gutter;
+	padding-left: $grid-gutter;
+	position: relative;
+	&:before {
+		border-top: 1px solid $black-bg;
+		content: '';
+		display: block;
+		position: absolute;
+			top: 0;
+			left: 0;
+		width: 100%;
+	}
+}
+
+.tile-toggle {
+	cursor: pointer;
 }
 
 .tile-wrap {
@@ -30,118 +146,3 @@
 	margin-bottom: $line-height;
 	position: relative;
 }
-
-// action
-	.tile-action {
-		@extend .card-action;
-		float: right;
-		@include user-select(none);
-		&:before {
-			display: none;
-		}
-		.no-touch &,
-		.touch .tile-collapse & {
-			display: none;
-		}
-		.no-touch .tile:hover &,
-		.tile-collapse.active & {
-			display: block;
-		}
-	}
-
-	.tile-action-show {
-		display: block !important;
-	}
-
-// collapse
-	.tile-active-show {
-		@include transition(height 0.15s linear);
-	}
-
-	.tile-collapse {
-		@include transition(margin 0.15s linear);
-		&.active {
-			margin-right: ($grid-gutter * -1 + 1);
-			margin-left: ($grid-gutter * -1 + 1);
-		}
-	}
-
-	.tile-collapse-full {
-		// 1056 - 1439
-			@media only screen and (min-width: ($grid-gutter * 4 + $screen-md)) and (max-width: ($screen-lg - 1)) {
-				&.active {
-					margin-right: ($grid-gutter * -4 + 1);
-					margin-left: ($grid-gutter * -4 + 1);
-				}
-			}
-		// 1504
-			@media only screen and (min-width: ($grid-gutter * 4 + $screen-lg)) {
-				&.active {
-					margin-right: ($grid-gutter * -4 + 1);
-					margin-left: ($grid-gutter * -4 + 1);
-				}
-			}
-	}
-
-// content
-	.tile-inner {
-		padding: ($line-height / 2) $grid-gutter;
-		position: relative;
-		.tile-side ~ & {
-			overflow: hidden;
-		}
-	}
-
-	.tile-side {
-		@extend .card-inner-side;
-	}
-
-	.tile-side-container {
-		padding: 0 !important;
-	}
-
-	.tile-sub {
-		display: inline-block;
-		padding-right: $grid-gutter;
-		padding-left: $grid-gutter;
-		position: relative;
-		width: 100%;
-		&:before {
-			border-top: 1px solid $black-bg;
-			content: '';
-			display: block;
-			position: absolute;
-				top: 0;
-				left: 0;
-			width: 100%;
-		}
-	}
-
-// footer
-	.tile-footer {
-		background-color: $white-bg;
-		position: relative;
-		@include clearfix();
-		&:before {
-			border-top: 1px solid $black-bg;
-			content: '';
-			display: block;
-			position: absolute;
-				top: 0;
-				left: 0;
-			width: 100%;
-		}
-		&:first-child {
-			border-top: 0;
-		}
-		.nav {
-			margin-top: 0;
-			margin-bottom: 0;
-		}
-	}
-
-// misc
-	.tile-toggle {
-		cursor: pointer;
-		@include clearfix();
-	}

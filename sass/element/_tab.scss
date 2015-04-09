@@ -1,8 +1,7 @@
 .tab-nav {
 	border-bottom: 1px solid $black-hint;
-	margin-top: $line-height;
+	margin-top: ($line-height / 2);
 	margin-bottom: $line-height;
-	position: relative;
 	text-align: center;
 	.nav {
 		margin-top: 0;
@@ -14,32 +13,159 @@
 				padding-right: ($grid-gutter / 2);
 				padding-left: ($grid-gutter / 2);
 				text-transform: uppercase;
-				@include transition(border-bottom 0s, padding-bottom 0s);
+				&:after {
+					background-color: $link-color;
+					content: '';
+					display: block;
+					height: 3px;
+					position: absolute;
+						right: 0;
+						bottom: 0;
+					width: 0;
+					@include transition(width 0.3s $timing);
+				}
 				&:focus,
 				&:hover {
 					color: $link-color;
 				}
+				&.to-left:after {
+					// position
+						right: auto;
+						left: 0;
+				}
 			}
 			&.active > a {
-				border-bottom: 3px solid $link-color;
 				color: $link-color;
-				padding-bottom: ($line-height / 2 - 3);
-				@include transition(border-bottom 0s 0.45s, padding-bottom 0s 0.45s);
+				&:after {
+					// position
+						right: auto;
+						left: 0;
+					width: 100%;
+				}
+				&.from-right:after {
+					// position
+						right: 0;
+						left: auto;
+				}
 			}
 		}
 	}
 }
 
-.tab-nav-indicator {
-	background-color: $link-color;
-	height: 3px;
-	position: absolute;
-		bottom: -1px;
-	@include transition(left 0.3s $timing 0.15s, right 0.3s $timing);
-	&.reverse {
-		@include transition(left 0.3s $timing, right 0.3s $timing 0.15s);
+// tab nav colours
+	.tab-nav-alt {
+		.nav {
+			> li {
+				> a {
+					&:after {
+						background-color: $brand-color;
+					}
+					&:focus,
+					&:hover {
+						color: $brand-color;
+					}
+				}
+				&.active > a {
+					color: $brand-color;
+				}
+			}
+		}
 	}
-}
+
+	.tab-nav-blue {
+		.nav {
+			> li {
+				> a {
+					&:after {
+						background-color: $palette-blue;
+					}
+					&:focus,
+					&:hover {
+						color: $palette-blue;
+					}
+				}
+				&.active > a {
+					color: $palette-blue;
+				}
+			}
+		}
+	}
+
+	.tab-nav-green {
+		.nav {
+			> li {
+				> a {
+					&:after {
+						background-color: $palette-green;
+					}
+					&:focus,
+					&:hover {
+						color: $palette-green;
+					}
+				}
+				&.active > a {
+					color: $palette-green;
+				}
+			}
+		}
+	}
+
+	.tab-nav-purple {
+		.nav {
+			> li {
+				> a {
+					&:after {
+						background-color: $palette-purple;
+					}
+					&:focus,
+					&:hover {
+						color: $palette-purple;
+					}
+				}
+				&.active > a {
+					color: $palette-purple;
+				}
+			}
+		}
+	}
+
+	.tab-nav-red {
+		.nav {
+			> li {
+				> a {
+					&:after {
+						background-color: $palette-red;
+					}
+					&:focus,
+					&:hover {
+						color: $palette-red;
+					}
+				}
+				&.active > a {
+					color: $palette-red;
+				}
+			}
+		}
+	}
+
+	.tab-nav-yellow {
+		.nav {
+			> li {
+				> a {
+					&:after {
+						background-color: $palette-yellow;
+					}
+					&:focus,
+					&:hover {
+						color: $palette-yellow;
+					}
+				}
+				&.active > a {
+					color: $palette-yellow;
+				}
+			}
+		}
+	}
 
 .tab-pane {
 	display: none;
@@ -49,28 +175,3 @@
 		visibility: visible;
 	}
 }
-
-// colour
-	@each $color in $palette-list {
-		$i: index($palette-list, $color);
-		
-		.tab-nav-#{$color} {
-			.tab-nav-indicator {
-				background-color: nth($palette-color, $i);
-			}
-			.nav {
-				> li {
-					> a {
-						&:focus,
-						&:hover {
-							color: nth($palette-color, $i);
-						}
-					}
-					&.active > a {
-						border-bottom-color: nth($palette-color, $i);
-						color: nth($palette-color, $i);
-					}
-				}
-			}
-		}
-	}

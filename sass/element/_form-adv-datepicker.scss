@@ -112,20 +112,19 @@
 		.picker__month,
 		.picker__year {
 			display: inline;
-			margin-left: $grid-gutter;
-			&:first-child {
-				margin-left: 0;
-			}
+		}
+
+		.picker__month {
+			margin-right: ($grid-gutter / 2);
 		}
 
 		.picker__nav--next,
 		.picker__nav--prev {
 			cursor: pointer;
 			line-height: $line-height;
-			margin-top: ($line-height / -2);
 			padding: 0 $grid-gutter;
 			position: absolute;
-				top: 50%;
+				top: 0;
 			&:focus,
 			&:hover {
 				color: $link-color;
@@ -140,28 +139,6 @@
 		.picker__nav--prev {
 			// position
 				left: 0;
-		}
-
-		.picker__select--month,
-		.picker__select--year {
-			@extend .form-control;
-			border-bottom: 0;
-			display: inline-block;
-			height: $line-height;
-			margin-left: $grid-gutter;
-			padding-top: 0;
-			padding-bottom: 0;
-			width: auto;
-			&:first-child {
-				margin-left: 0;
-			}
-		}
-
-		@media only screen and (-webkit-min-device-pixel-ratio: 0) {
-			select.picker__select--month,
-			select.picker__select--year {
-				background-position: 100% 50%;
-			}
 		}
 
 	// top date
@@ -223,7 +200,8 @@
 		vertical-align: middle;
 		white-space: normal;
 		@include transform(scale(0, 0));
-		@include transition(all 0.3s $timing);
+		-webkit-transition: -webkit-transform 0.3s $timing 0s;
+		        transition: transform 0.3s $timing 0s;
 		.picker--opened & {
 			@include transform(scale(1, 1));
 		}
@@ -247,7 +225,7 @@
 		-webkit-backface-visibility: hidden;
 		-webkit-overflow-scrolling: touch;
 		-ms-overflow-style: -ms-autohiding-scrollbar;
-		@include transition(background-color 0.3s $timing, top 0s linear 0.3s);
+		@include transition(background-color 0.3s $timing 0s, top 0s 0.3s);
 		&:after {
 			content: '';
 			display: inline-block;
@@ -259,6 +237,6 @@
 			background-color: rgba(0, 0, 0, 0.5);
 			// position
 				top: 0;
-			@include transition(background-color 0.3s $timing, top 0s linear 0s);
+			@include transition(background-color 0.3s $timing 0s, top 0s 0s);
 		}
 	}

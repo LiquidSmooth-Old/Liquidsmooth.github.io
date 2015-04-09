@@ -1,31 +1,20 @@
-// tab indicator
+// tab index
 	$('.tab-nav').each(function() {
-		$(this).append('<div class="tab-nav-indicator"></div>');
-		tabSwitch($('.nav > li.active', $(this)), null);
+		$('a[data-toggle="tab"]', $(this)).each(function(index) {
+			$(this).attr('data-tab-index', index);
+		});
 	});
 
 // tab switch
-	$(document).on('show.bs.tab', '.tab-nav a[data-toggle="tab"]', function(e) {
-	 	tabSwitch($(e.target), $(e.relatedTarget));
-	});
-
-	function tabSwitch(newTab, oldTab) {
-		var $nav = newTab.closest('.tab-nav'),
-		    $navIndicator = $('.tab-nav-indicator', $nav),
-		    navOffset = $nav.offset().left,
-	 	    navWidth = $nav.width(),
-	 	    newTabOffset = newTab.offset().left,
-	 	    newTabWidth = newTab.outerWidth();
-
-		if (oldTab != null && oldTab.offset().left > newTabOffset) {
-			$navIndicator.addClass('reverse');
+	$('a[data-toggle="tab"]').on('show.bs.tab', function(e) {
+		var $newTab = $(e.target),
+		    $oldTab = $(e.relatedTarget);
+		if ($newTab.attr('data-tab-index') < $oldTab.attr('data-tab-index')) {
+			$newTab.addClass('from-right');
+			$oldTab.addClass('to-left');
 			setTimeout(function() {
-				$navIndicator.removeClass('reverse');
-			}, 450);
+				$newTab.removeClass('from-right');
+				$oldTab.removeClass('to-left');
+			}, 300);
 		};
-
-	 	$navIndicator.css({
-	 		left: (newTabOffset - navOffset),
-	 		right: navOffset + navWidth - newTabOffset - newTabWidth
-	 	});
-	}
+	});

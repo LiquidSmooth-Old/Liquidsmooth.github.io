@@ -1,20 +1,23 @@
 // fixed left/right hand side column affix
-	var footerHeight = 0,
-	    htmlHeight = 0;
+	var contentFixPush,
+	    contentFixPushIni;
+
+	if ($('.content').length) {
+		contentFixPushIni = parseInt($('.content').css('padding-bottom').replace('px', ''));
+	};
 
 	$(window).on('scroll', function() {
 		$('.content-fix').each(function(index) {
-			if ($(this).outerHeight() < $(this).closest('.row-fix').outerHeight()) {
-				contentFix($(this));
-			}
+			contentFix($(this));
 		});
 	});
 
 	function contentFix(content) {
-		if (window.pageYOffset >= (content.offset().top - headerHeight)) {
+		if ($(window).scrollTop() > (content.offset().top - $('.header').height())) {
 			if (!content.hasClass('fixed')) {
 				if ((content.is('[class*="col-xx"]')) || (content.is('[class*="col-xs"]') && $(window).width() >= 480) || (content.is('[class*="col-sm"]') && $(window).width() >= 768) || (content.is('[class*="col-md"]') && $(window).width() >= 992) || (content.is('[class*="col-lg"]') && $(window).width() >= 1440)) {
 					content.addClass('fixed');
+					$('.content-fix-inner', content).css('padding-bottom', contentFixPush).scrollTop(0);
 					$('.content-fix-wrap', content).scrollTop(0);
 				};
 			};
@@ -22,24 +25,17 @@
 			content.removeClass('fixed');
 			$('.content-fix-inner', content).css('padding-bottom', '');
 		}
-
-		var scrolled = window.innerHeight + window.pageYOffset;
-
-		if (htmlHeight <= scrolled) {
-			$('.content-fix-inner', content).css('padding-bottom', scrolled - htmlHeight);
-		};
 	}
 
 // fixed left/right hand side column padding bottom and width
 	function contentFixPushCal() {
-		htmlHeight = $('body').height();
-
 		$('.content-fix-scroll').each(function(index) {
 			$(this).css('width', $(this).closest('.content-fix').outerWidth());
 			$('.content-fix-inner', $(this)).css('width', $(this).closest('.content-fix').width());
 		});
-
 		if ($('.footer').length) {
-			footerHeight = $('.footer').outerHeight();
+			contentFixPush = contentFixPushIni + $('.footer').outerHeight();
+		} else {
+			contentFixPush = contentFixPushIni;
 		}
 	}

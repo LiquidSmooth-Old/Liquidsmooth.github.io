@@ -12,13 +12,21 @@
 	padding-top: ($line-height * 2);
 	position: relative;
 	z-index: 1;
-	@include transition(background-color 0.3s $timing, color 0.3s $timing);
-	@each $color in $palette-list {
-		$i: index($palette-list, $color);
-		
-		.page-#{$color} & {
-			background-color: nth($palette-color, $i);
-		}
+	@include transition(background-color 0.3s $timing 0s, color 0.3s $timing 0s);
+	.page-blue & {
+		background-color: $palette-blue;
+	}
+	.page-green & {
+		background-color: $palette-green;
+	}
+	.page-purple & {
+		background-color: $palette-purple;
+	}
+	.page-red & {
+		background-color: $palette-red;
+	}
+	.page-yellow & {
+		background-color: $palette-yellow;
 	}
 	.heading {
 		font-weight: 300;
@@ -35,12 +43,20 @@
 	font-size: $font-size-h4;
 	font-weight: 400;
 	line-height: $line-height-h4;
-	@each $color in $palette-list {
-		$i: index($palette-list, $color);
-		
-		.page-#{$color} & {
-			color: nth($palette-color, $i);
-		}
+	.page-blue & {
+		color:  $palette-blue;
+	}
+	.page-green & {
+		color:  $palette-green;
+	}
+	.page-purple & {
+		color:  $palette-purple;
+	}
+	.page-red & {
+		color:  $palette-red;
+	}
+	.page-yellow & {
+		color:  $palette-yellow;
 	}
 }
 

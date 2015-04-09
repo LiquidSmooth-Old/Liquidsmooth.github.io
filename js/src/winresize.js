@@ -4,15 +4,8 @@
 			if ($('.content-fix').length) {
 				contentFixPushCal();
 			};
-
 		// footer push
-			footerPush();
-
-		// header height
-			headerHeightCal();
-
-		// tab switch
-			$('.tab-nav').each(function() {
-				tabSwitch($('.nav > li.active', $(this)), null);
-			});
+			if ($('.footer').length) {
+				footerPush();
+			};
 	})();
