@@ -5658,3 +5658,25 @@ input[type=checkbox]: checked+.switch-toggle:after,input[type=radio]: checked+.s
     .menu-right.open~.fbtn-container {
     right: 416px}
 }
+@media only screen and (min-width: 623px) {
+
+#wrapper2 {
+     width: 100%;
+     margin: 0 auto;
+}
+
+#left, #right {
+    float: left;
+}
+
+#left {
+     width: 50%;
+	 padding-left: 12%;	 
+}
+
+#right {
+     width: 50%;
+	 padding-right: 12%;
+}
+
+}
