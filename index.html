@@ -12,19 +12,16 @@
 	<meta name="description" content="LiquidSmooth is an aftermarket firmware based on the Android Open Source Project. Dedicated to providing users with smooth, stable ROMs. A Lightweight modified AOSP base, and then add the features you crave! ">
 	<meta name="keywords" content="Liquid Smooth, Liquidsmooth, ROM, AOSP, custom rom">
 
-	<script>
-		window.addEventListener('load', function() {
-
-		navigator.serviceWorker.register('service-worker.js', { scope: './' })
-		.then(function(r) {
-		console.log('registered service worker');
-		})
-		.catch(function(whut) {
-		console.error('uh oh... ');
-		console.error(whut);
-		});
-		});
-	</script>
+   	 <script>
+    	   // Service workers require HTTPS (http://goo.gl/lq4gCo). If we're running on a real web server
+ 	   // (as opposed to localhost on a custom port, which is whitelisted), then change the protocol to HTTPS.
+   	   if ((!location.port || location.port == "80") && location.protocol != 'https:') {
+   	   location.protocol = 'https:';
+     	   }
+      		if ('serviceWorker' in navigator) {
+        	navigator.serviceWorker.register('service-worker.js', {scope: './'});
+      		}
+         </script>
 
 	<!-- css -->
 	<link href="/css/base.min.css" rel="stylesheet">
