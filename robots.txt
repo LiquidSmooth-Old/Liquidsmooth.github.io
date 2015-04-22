@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /css/*
+Allow: /fonts/*
+Disallow: /cgi-bin/
+Disallow: /forums
+Disallow: /forums/*
+Disallow: /*?
+Disallow: /forums/index.php/
+Disallow: /old
+Disallow: /old/
+Sitemap: http://liquidsmooth.net/sitemap.xml

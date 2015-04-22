@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://liquidsmooth.net/</loc>
+  <lastmod>2015-04-18T04:47:29+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/</loc>
+  <lastmod>2015-04-22T17:11:36+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/about.html</loc>
+  <lastmod>2015-04-16T00:15:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/all.html</loc>
+  <lastmod>2015-04-12T22:27:27+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/amami.html</loc>
+  <lastmod>2015-04-12T20:39:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/amami_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/bacon.html</loc>
+  <lastmod>2015-04-12T20:39:08+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/bacon_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:08+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/d2att.html</loc>
+  <lastmod>2015-04-12T20:39:06+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/d2att_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:06+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/d2bst.html</loc>
+  <lastmod>2015-04-12T20:39:15+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/d2bst_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/d2cri.html</loc>
+  <lastmod>2015-04-12T20:39:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/d2cri_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/d2spr.html</loc>
+  <lastmod>2015-04-12T20:39:17+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/d2spr_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/d2tmo.html</loc>
+  <lastmod>2015-04-12T20:39:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/d2tmo_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/d2usc.html</loc>
+  <lastmod>2015-04-12T20:39:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/d2usc_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/d2vzw.html</loc>
+  <lastmod>2015-04-12T20:39:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/d2vzw_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/d801.html</loc>
+  <lastmod>2015-04-12T20:39:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/d801_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/dlx.html</loc>
+  <lastmod>2015-04-12T20:39:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/dlx_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/falcon.html</loc>
+  <lastmod>2015-04-12T20:39:15+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/falcon_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/flounder.html</loc>
+  <lastmod>2015-04-12T20:39:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/flounder_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/flounder_lte.html</loc>
+  <lastmod>2015-04-12T20:39:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/flounder_lte_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/flo.html</loc>
+  <lastmod>2015-04-12T20:39:06+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/flo_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:08+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/ghost.html</loc>
+  <lastmod>2015-04-12T20:39:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/ghost_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/grouper.html</loc>
+  <lastmod>2015-04-12T20:39:15+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/grouper_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:08+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/hercules.html</loc>
+  <lastmod>2015-04-12T20:39:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/hercules_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:08+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/hammerhead.html</loc>
+  <lastmod>2015-04-12T20:39:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/hammerhead_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/hlte.html</loc>
+  <lastmod>2015-04-12T20:39:15+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/hlte_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/hltespr.html</loc>
+  <lastmod>2015-04-12T20:39:08+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/hltespr_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/hltetmo.html</loc>
+  <lastmod>2015-04-12T20:39:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/hltetmo_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/hlteusc.html</loc>
+  <lastmod>2015-04-12T20:39:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/hlteusc_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/hltevzw.html</loc>
+  <lastmod>2015-04-12T20:39:15+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/hltevzw_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/honami.html</loc>
+  <lastmod>2015-04-12T20:39:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/honami_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/i605.html</loc>
+  <lastmod>2015-04-12T20:39:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/i605_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/i9300.html</loc>
+  <lastmod>2015-04-12T20:39:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/i9300_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:06+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/jflteatt.html</loc>
+  <lastmod>2015-04-22T16:55:02+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/jflteatt_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/jfltespr.html</loc>
+  <lastmod>2015-04-22T16:55:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/jfltespr_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/jfltetmo.html</loc>
+  <lastmod>2015-04-22T16:55:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/jfltetmo_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:08+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/jflteusc.html</loc>
+  <lastmod>2015-04-22T16:55:06+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/jflteusc_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/jfltevzw.html</loc>
+  <lastmod>2015-04-22T16:55:08+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/jfltevzw_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/jfltexx.html</loc>
+  <lastmod>2015-04-22T16:55:08+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/jfltexx_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:15+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/l900.html</loc>
+  <lastmod>2015-04-12T20:39:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/l900_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/ls980.html</loc>
+  <lastmod>2015-04-12T20:39:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/ls980_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:06+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/lt01lte.html</loc>
+  <lastmod>2015-04-12T20:39:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/lt01lte_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/lt013g.html</loc>
+  <lastmod>2015-04-12T20:39:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/lt013g_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/lt01wifi.html</loc>
+  <lastmod>2015-04-12T20:39:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/lt01wifi_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/lt03wifi.html</loc>
+  <lastmod>2015-04-12T20:39:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/lt03wifi_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/mb886.html</loc>
+  <lastmod>2015-04-12T20:39:08+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/mb886_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/mako.html</loc>
+  <lastmod>2015-04-12T20:39:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/mako_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/maserati.html</loc>
+  <lastmod>2015-04-12T20:39:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/maserati_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/m7vzw.html</loc>
+  <lastmod>2015-04-12T20:39:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/m7vzw_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:11+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/m8.html</loc>
+  <lastmod>2015-04-12T20:39:06+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/m8_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:16+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/n7100.html</loc>
+  <lastmod>2015-04-12T20:39:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/n7100_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:06+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/obake.html</loc>
+  <lastmod>2015-04-12T20:39:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/obake_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/serranoltexx.html</loc>
+  <lastmod>2015-04-12T20:39:08+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/serranoltexx_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/serrano3gxx.html</loc>
+  <lastmod>2015-04-12T20:39:06+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/serrano3gxx_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:15+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/shamu.html</loc>
+  <lastmod>2015-04-12T20:39:06+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/shamu_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:17+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/shooter.html</loc>
+  <lastmod>2015-04-12T20:39:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/shooter_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:08+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/shooteru.html</loc>
+  <lastmod>2015-04-12T20:39:15+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/shooteru_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:08+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/spyder.html</loc>
+  <lastmod>2015-04-12T20:39:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/spyder_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:17+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/umts_spyder.html</loc>
+  <lastmod>2015-04-12T20:39:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/umts_spyder_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/t0lte.html</loc>
+  <lastmod>2015-04-12T20:39:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/t0lte_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/targa.html</loc>
+  <lastmod>2015-04-12T20:39:08+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/targa_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/togari.html</loc>
+  <lastmod>2015-04-12T20:39:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/togari_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:03+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/victara.html</loc>
+  <lastmod>2015-04-12T20:39:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/victara_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/vs980.html</loc>
+  <lastmod>2015-04-12T20:39:13+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/vs980_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/xt897.html</loc>
+  <lastmod>2015-04-12T20:39:17+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/xt897_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/xt897c.html</loc>
+  <lastmod>2015-04-12T20:39:07+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/xt897c_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:14+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/xt907.html</loc>
+  <lastmod>2015-04-12T20:39:06+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/xt907_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:06+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/xt925.html</loc>
+  <lastmod>2015-04-12T20:39:04+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/xt925_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:12+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/xt926.html</loc>
+  <lastmod>2015-04-12T20:39:05+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://liquidsmooth.net/downloads/xt926_milestone.html</loc>
+  <lastmod>2015-04-12T20:39:09+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+</urlset>
